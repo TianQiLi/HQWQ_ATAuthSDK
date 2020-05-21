@@ -2,8 +2,8 @@ Pod::Spec.new do |spec|
 
  spec.name = 'HQWX_ATAuthSDK'
  spec.version = '2.8.0'
- spec.summary = 'Netease IM SDK'
- spec.homepage = 'https://netease.im'
+ spec.summary = 'ali QuHao  SDK'
+ spec.homepage = 'https://ali.com'
  spec.license = { :'type' => 'Copyright', :'text' => ' Copyright 2020 ALI '}
  spec.authors = 'TQ'
  
