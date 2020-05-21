@@ -12,6 +12,7 @@ Pod::Spec.new do |spec|
  spec.vendored_frameworks = 'ATAuthSDK.framework'
  spec.frameworks = 'SystemConfiguration'
  spec.libraries = 'sqlite3.0', 'z', 'c++'
+ spec.resources = "Resources/*.*"
 
 end   
 
