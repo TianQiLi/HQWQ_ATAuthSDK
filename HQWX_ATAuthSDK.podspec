@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
  
  spec.source = { :git => "https://github.com/TianQiLi/HQWX_ATAuthSDK.git", :tag => "#{spec.version}" }
  spec.platform = :ios, '9.0'
- spec.vendored_frameworks = 'ATAuthSDK.framework'
+ spec.vendored_frameworks = 'ATAuthSDK.framework' ,'YTXMonitor.framework','YTXOperators.framework'
  spec.frameworks = 'UIKit','SystemConfiguration'
  spec.libraries = 'sqlite3.0', 'z', 'c++'
  spec.resources = "Resources/*.*"
