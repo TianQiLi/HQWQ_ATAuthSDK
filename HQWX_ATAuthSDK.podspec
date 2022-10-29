@@ -14,6 +14,6 @@ Pod::Spec.new do |spec|
  spec.libraries = 'sqlite3.0', 'z', 'c++'
  spec.resources = "Resources/*.*"
  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
- spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
+  
 end   
 
